@@ -49,9 +49,9 @@
   background-color: #FF7755;
   gap: 50px;
   grid-column: 1 / 2;
+  grid-row: 2 / 4;
   display: grid;
-  justify-content: center;
-  grid-template-rows: repeat(4, 1fr);
+  justify-content: stretch;
 }
 
 .sidebar .photo {
@@ -60,6 +60,8 @@
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
+  align-items: center;
+  display: grid;
 }
 
 
@@ -68,6 +70,8 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
+  display: grid;
+  align-items: center;
 }
 
 .nav {
@@ -105,7 +109,7 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
-  height: 400px;
+  height: 250px;
 }
 
 .card p {
